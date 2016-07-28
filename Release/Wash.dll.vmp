@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+	<Protection
+		InputFileName=".\Wash.dll"
+		Options="3976"
+		CheckKernelDebugger="true"
+		VMCodeSectionName=".text"
+		VMExecutorCount="3"
+		OutputFileName="D:\BNBLogin\WASH\BNB.DLL"
+		>
+		<Messages
+		/>
+		<Folders
+		/>
+		<Procedures>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;DlgProc&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;FormThread&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;Click&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;Push&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;Input&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;send&quot;"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;GetMoneyInfo&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;Postion_ESP&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;Postion_FUN&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;HOOK_Sleep&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;HOOK_ReadProcessMemory&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;HOOK_RegQueryValueEx&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;HOOK_CreateFile&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;RecvHook&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;InitHook&quot;"
+				CompilationType="2"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;WashThread&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;DllMain&quot;"
+				CompilationType="2"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;VMHook&quot;"
+				CompilationType="1"
+			/>
+			<Procedure
+				MapAddress="VMProtectMarker &quot;RecvCheck&quot;"
+				CompilationType="1"
+			/>
+		</Procedures>
+	</Protection>
+	<DLLBox
+	/>
+	<Script
+	/>
+	<LicenseManager
+		ProductCode="d45Q+mHiY4Y="
+		Algorithm="RSA"
+		Bits="2048"
+		PublicExp="AAEAAQ=="
+		PrivateExp="MEutSU5rn1HYkIPVqbQce2nhFvmvkHEWwy9bHTRb842QQVU6nnCbcSlj4KP0h2T7fZDz0Bv/nQfSRK34DFCbDgn7L4R8aV6vwEcqVOdxEKF9fAqA7MCYX/i9ss0ciRPpDWMmTxNxffq7Y5wg36OflLXZ67rvRP0k2PQouVCfoJbEvx12uWNuKVw8EoI0O+qKz3INyOWVzVCnj41Zph5wUVkXOk5YO/759d9f9w9ct/Gyk+Iqrh1YuGzRdPhiB+nz/WHiv/XRGTumrMKGliBupL2JKaRnRb+LhL9YigtqoFnbIewDIMYjcGd2w5CcFmfpjyQDPCBANKu20Tt+0L5e1Q=="
+		Modulus="sDQu33z0zxEklrrPuTlHjNMLK85Tr81A1YSWDEb9MPJxrtDl5pe/m7z5xcQTJQ+szrXXK5e7YR20VOKqn4pxyxWqXqdltgWS9g0evdO0si4tMvo97S5gUeBp977jve+yt+A+SEe4wz+87+6BiwCLcQyX1GcNfr6gPtXEpjEfyLAPXKNd2RMZTZxwH/JjotnJbjXbHNSRYhrpctZrRiSrrx9aoAd8KgpjTEkRDetFM2PYYR7T6l2/hQfmC6ZWa8JU+mnbq4gWWskziRWuDF40BX5F6yowPbXqpxjhFrJZOeZhvXB55FjVrmyA8AY1mO9HN+3Yk2+nECcTrJvj4gH3XQ=="
+		>
+		<License
+			Date="2014-01-02"
+			CustomerName="GOD"
+			SerialNumber="o7x6EaCjBOWByi9/bYCADO1pxanVY98eodKibgH78qBpopOFxSmsZqaHCNu9Nw1HksE5/YgTFcIFQTMhC7Xb7meAy7PHgbets3fQPAmmA7XaRPbccsD3ZuK3dwbWfOtZrorpLWj2Lw+RgTcdXv+t64k05Qq7WRhmns/e2SAHkrMIFN51a7z64AiSpYLIqObQqpxmhmHth0bStkMq5yM0ka3eEnYEZxeuV5Vj+6GiDJpdbmFwrc3E6ICz/JUseFHbxriSQRwQfUDgUAu+4CL3NPOol/Ms6C134oFRV2zihHkEANBu6fCVgd8M9nJfHJdOUIupj9p782XHGfShffo/zQ=="
+		/>
+		<License
+			Date="2014-01-02"
+			CustomerName="溫柔的你TOLyp0UAsVzuoznaOkF3fqe8g20="
+			SerialNumber="Izovi426nLCtVnNJ1BGsXiTUo6LuNW6mOg6ZwsJTblkKHUrZrnoO2yUCmzHhnL7vFDfUy2h+a1omMsRyibcxKH8hmi56FinrCsXgMdjy/qJvmx7owVoIXu3rQe2ULji4EuCAC/lwZOEA/SqQRlRRHQyRnQv8V19Zwpvo7VkBDn7FW4lpvdJq+tbtrz29TT0yKYfROH8shD3apinzzVoc77fAwlzD6aZrDhHWP/QN2/NTQ/Ex+HDdB7WKsnDTgtLe1hT2pC+sExSSaw3dNBr3IjZ352AiiTiXazsGbal3uwjnGpyfPsOgfvYT9b5nBZ1XPPbKhUGdHmy6xuEipZh9zA=="
+		/>
+		<License
+			Date="2014-01-02"
+			CustomerName="黑人TOLyp7nwWxHuoznadkH06HPK22s="
+			SerialNumber="cAHAcvF2N8yEbASRDOuz5sLkVIEPMsVg42WZvlS8jcSn71ncjKNVV1KfcW5k05WfzJpBWtGnd1rf8Lc65EE0iiimMfz/y1lndkyGoNqkQIu58st0D4EQbj/MR6yiZH5ThnKGHq2Ng4lXKIzZwokasSjcYKtqSr1xGxDrQdNMb8Cdqg/DUXNw5Sm3/Cn6PWmfqRnUXeYDKaOGaxbZz2nJxXSNtMiTJUg81O61vvo4TUKOorO+dF9JhEVlOuDHj8S9T1MgK6B8slTC6ISzSi32RS6aYi1qCEjv9TWUxhvZ25uzYPztSMHRd7AdEKfveEYwU6PAo9YD5J/M8Am9fjtxCQ=="
+		/>
+		<License
+			Date="2014-01-02"
+			CustomerName="珍貴TOLyp72lx57uoznaOuryFJtRbTk="
+			SerialNumber="p1PAv2MwSMbPem0XruIhUnG4StGYUD8Sc2iVXd6UHTKhgWPiDRCDbny1mBxquvlkxOEpCr0PktksLMhp6ddUIMRbBM7RLmCsJ/QrDi1KOs4ylkzRf0JZDI5AZClsmETGiLYChV89tG1S0ZDuN4u5i4r5xTH+I8mUk/MMAFsU8iQ1LU7SgkMtUga8ExCwSO5rC296i76tfMNBhpQDO/v8LQwqnIA0oOhYPOfd7a/+MrM3uQTgFSBo/7FdmeOIF2HK+CFwlcuBa4a1aGqMyQpqPxjgiwHF058SMOKYLVK0tVZIyksZPj4Uq6XejA/RGTt46BwzJ38ZN2vVNFgVzBsnmw=="
+		/>
+		<License
+			Date="2014-01-02"
+			CustomerName="珍貴qPSQMjlV9Z6qUwWv8u/Ew+86oRM="
+			SerialNumber="AbfF74uKSCejDVLPwXRjK462sP9femmGsPUJETY1Z0iKkrChouda3412W7DgTRkMyjZRgAnd0C/ajFGet8kTcYo3IAIIDbGkZzAB1AWkIbrSX458qD6lnnK3N78cTkHhuTNapnEOrQs245ZlJnWNqZEtse7a6Gg3BEvXw8PrrwTXeSrLhFnYi4aBnMwJeppQ9cHlcQPI+UlrnYQ03X09d3fdMhsqv0JjRv388AoIezz4oQwS8hfmyPKgbiwImyn3gWYeB7KuJoHRsly3YjhiVsaKO+YdoeKFBturuOrHDRm2qtXrX3pq9HO0guxARsX3KeJBRhh+RVJll9M065guIw=="
+		/>
+		<License
+			Date="2014-01-02"
+			CustomerName="牛奶CMa//w2RNpOmY5gNS2HJ2Q=="
+			SerialNumber="Te723HgK4Wsy4Ue9PzrWN3FenFpmZ9xjXjVwANqIKNl08cR47PobDLjLxd5TJ6SqqSWnK9J1HsJxm8heNG/u86svAAW3762v3AbXdETQ4xKcK9ssPc57li/SVIRRtHU4goTo0ZHR7wu9kyc/EMxOPTRbYI0L+9NqQQp/buhGDwYcerwIl/Z/sr/mVlH0lums1bofoPnHyTpg4NFgi1t75fZSN8b/CVRmDo4u2R3gTkEm6+gSSv/xGY1MreKIIP6MUvqfxydVUCfeVYwXZi/yGPxr/yoRCjnTY6U8a281wCnT0KFtGuiK1ziPIFqlxHSQfxT5sHWxZ/0qBGJYfaU2Rg=="
+		/>
+		<License
+			Date="2014-01-02"
+			CustomerName="老蘇cLsXdonNX3tSMzTsD8xq1w=="
+			SerialNumber="Vz9LBEvhPCJ4IODmN6QM1isigGmaiPZrdFFpPmwLRNYOUDDzEYDo86o9/oisw7WA9YvaJP7R/fNDscgXBRjLj3BuDPKtmOKB1P1BW570pioGsfEYtSux6CG2MGs6+0/UbLFWO7kzuawNIsQND//te3+FLwa+BHGIWrbbX7TiQM/isCgyjOlFv9CH9dh+wtjAsIo3hJXXg4W5kDRdI9esiD2CVJCaqUTbVPdHWQAj5gWWybryeIdlTFIL0By25anCUvM4bom4sM2FlCGQO/WiQvLcmLnxOpg9j7KdI0t0/r7LXVHJ6LaKBH91Ftub+qTd6SMo5gTTyort3/5Hx3MrDg=="
+		/>
+		<License
+			Date="2014-01-02"
+			CustomerName="老蘇cLsXdplPDEc2TUv5e0cbKg=="
+			SerialNumber="YkHyYO4X/x5nxCEC9VSPMqGSCrsWx4mlkXAbKJysyzKNGDy+JJ6IxqyjcvA1x22qY2hqWcAXJWwIHJS1FRxzPPT5JF9qA1feD9zNHTz+VFo1MLBtsW+WiK8E4xwOuB2m4K7Ij7HDZkX6WPsyYX9Jd0Q8oK1DHU41aKk54ghadOeX0y+TxJASMmtY01P5YqvJKfJClWpWhGflsLH78QtIdYHdMjCfkryAcXTxDTM9poZsSCofTyXQpnMB3e6i/CbhRzbDx7B5oWN55/jX8NdopfXylXr+viBLj31cUSv/p98nh56QcwFER3hJR15tUmRPkhZmAeT2RQmdtnqwduCRTg=="
+		/>
+		<License
+			Date="2014-01-02"
+			CustomerName="老蘇YNm+VDU0grDe8au9K4QBcA=="
+			SerialNumber="F9C1ywHqhudxAhgtJFMHOcn8WyiJrI/Ix6z1auHqAsx9Un3tT2mDXUjHqzUvjsKy+oOIrI2ICuEmpsxs7GhwuV6SfBbiF/cak/r3+pP6DTTAFNTuUsy9Bbq77aNa0oNxhFt4MlzP3qUNAdxotAkfavfxb9VU1cN2x0siac+MQYKkpth7WAGC4ogsMveYGQLZ7Gryh0gBkHmxmww+AB8NraV01HYBAuj/SsvhtxdikcPcAz+mUiufbjLIC0YTIq9L0LayQuo17Tekm8+9oPjs8CStBzqwwI81eIxVtCsmuvR4puZ/0N2ML3RGbt0R92lcTd1PfBmSzC7EJq/sw/RLSg=="
+		/>
+		<License
+			Date="2014-01-02"
+			CustomerName="老蘇YNm+VJ1e4VmOIeyEE3JuZA=="
+			SerialNumber="Trlhn0DlU8hml+q+lqXiHqkkCh5muArqx3Lo+nBZ4q00Tr2ptvu+N8zxf+ubeMtx2JHOKeVcV4s2lKECzY+fYX+01iI7aWOlbvf7Nf7VFtogNs9OsqnJPPy5EF74LhBnIW0E9Hn+NCWiH7EMxsiDo8MovpbpYLwsNdIQ3lPxLNbWmiWa7FMUfyE1cwdWYLygzabqSnXly0sxSJm1/8DNkEW6kpnIchG/8GqKboiNhvtdKqLHEAn/QNWiw1GF1fCJ8sEWnxZG8rkaupveaLVXJkFEjgdq9OXOvc/2L1mWU3gsLMM9AnPilUdk84cFtAz+9P1WoSudfcigVI2LohxsKg=="
+		/>
+		<License
+			Date="2014-01-30"
+			CustomerName="CMa//0n8SzHuoznaluuy0HeIrlY="
+			SerialNumber="SFaaNYaO+4i9D4bfDEBnHtLXx1FiDXTrEVFKeaBJmTMC19UI0Y7Ow4na7eJSnr7ZoLca4mL56ZeFqRX5FatoSGAu5Mb8GQuGqwCevqwlUr4g3Bl3Qqb3Pkh7ri18zc5GAkuPd/FdzfgPUMinKLs3reN3Dv4eem9YgC0IhK6OSU20knhX08hUU3cHPgm5r8KexYDMqCZiAFxp70EVsGjkLltAS55H73etl3Dmq0D+S0g7IsMOa21/coRrScroAVVsr7PDWfgkl1joKzkqFEQytz29g4zROLSE8v3HmXhEWE482w/7dcJ82CguADe2OLG85hD7N27lIYmL5VWmCO2MVw=="
+		/>
+		<License
+			Date="2014-01-30"
+			CustomerName="CMa//yVo35Huoznawod+MgMAx6w="
+			SerialNumber="IXmQgcR20psyl0zMuG5UIyJib+16kA2JQ41Lht9M1pTu1+TUIE2LTpaMeEXw9YblTB/KSPAikHjoFYvQuV+y5S3J+WaWjNg/SEbN2PYn8m/E+EaKcbx36Yhfus8OW0Le1RvOiJRMSMfw1W5l9X6Mbnbe6NOjej9WoRi6RfMrgVKEG+0MX7TodeUDhmAvEEvUCZetDv0NoGIKo0mnQ55JpXtr4XRrMCPrpoWOp81rldLEo0IdsPwh6J0m4bb16dfYi48jOV1AQpo55sqRcnHKmxmtUy9p+oj51NtF69OjBHmu4gclDBKzamL3/v2GMYqdg2vE+FvIucPkEZC5GPpstA=="
+		/>
+		<License
+			Date="2014-01-30"
+			CustomerName="OKVnI8VvdYbuoznaRlKfbYe9Li8="
+			SerialNumber="Qu859vxuj0NoQL9WqavM+GEjID1NqHBhnwPiiyjBlXnZKFThCCQT8xJM14hoMG+omXGgGOl+vjoWEKMZjLQyGzvRHntxAN9M51yVPE49d0gI4nfRQ6MaiFqEz+3Uq4dXCl+sU+5JgcYJz6BpWwYWBjzl2sV1+sq9iPgIOY8ACUOvUCCg231Eo8tnu4DPvG5gLn8qsHPR0Um//rdgtpiuUjYe0MIb6raRjHKA1VG6NE3SEn3NJvLSlqY5Hk0iFJ8c+a0pECOkKTe0b9ngaikIiDCzriAgT2MSeIwGYm3aiIw6q6uca1dTi1qFtR2zGagsf+CU0ejyAxRqrL7+YR1qYA=="
+		/>
+		<License
+			Date="2014-01-30"
+			CustomerName="TOLyp32YplPuozna1oLzpvtsoho="
+			SerialNumber="TUNHjjKjHNtilFLk6eLEEum517iD6TS5rrdzEEp4wIsxRa5bS4NURd58ORCk5W3mEfTlFkCwZG04jeBe5CBNKAybH0NyrQ4wS720kFVHY1v3U04kHoZ2lgYmlF2Bl5NZt4F+Wg4YBcsuN5rGGQZyTyzAMU5IPsy1sglY/h7VrU1lvUyGuDJ5EniwasmOIHtl/UY2wbMA91xZ5YeMCNbISz2D7vKo3wUpqgty79C/Z86Ew9420COe6itV8aW12H+WbgmLMIyAmlpcDWXhblw3FCGmhfCcRqvXKH8aeZSJBhd36zgt67xW1dRpUkfZd5PhxqJ3pCnWkDy/us65ftj7tw=="
+		/>
+		<License
+			Date="2014-01-30"
+			CustomerName="CMa//3GMWcDuoznaPqA5GnvUaVw="
+			SerialNumber="Lpp6g+57pjAMJqNU0QnEFiYCaXUfP/xTw2VSAeafQM/svLFEJnp7khS1ci0dmccYXplQ0JFLTAlOj++p0xwveYTM4JxBrAIWb7RIac/niV0BlnCoZTCkLMkjQSb+YcL1crlz6TI88Wt3fXJLxKmEqUbLECtDapLTQsuW6EgB7QgEaGPxV1RmfAhwkPUCNNPuJQEAZfCsszSuRS1gC7M8ZjMSJXq460NAz4jSjQlnWO1xXJufdtLmsi6vIMVBfxrh8gi+vbhxEHImL+hdm/s1JICPE2gDNfq1NKoDCZqN0WUvLGbe1jGkX7i1yu0rXvLtc3S8EV3bKKfibheRFeBhoA=="
+		/>
+		<License
+			Date="2014-01-30"
+			CustomerName="OKVnI+GUBnre2HByy0cwPg=="
+			SerialNumber="k9PzA7YRuSXnAdpANfOtSsWsNJ+gewyizdFt5I+W0t1SK+BaPsdC6UBSZCDqGKmqaIe0r30hWA7+plEjmhFq4ByUOgLWA20/HG0A0SZ9nqPL5uL0sFQCtXJODREfWbGAYVu+zAu3624blZrEgZtSR9rrD1SvG3nu5pHicsL3YdBII+V7Iy8CH3WGO+JxR4plWHXoP6iaTS7z9pejTO3/oyxnzCb83hcAlq01Wu9DodZHqDFWPILXW8E4vCu8iIeksVlE+9TWBT4ynSuK93NOnEIOjxsbCCvl+scatUrmXYVVNtTxeZNaJzTZeWoHkCDxMP7mxPdEZtSGGou/i2KpdA=="
+		/>
+		<License
+			Date="2014-01-30"
+			CustomerName="TOLyp7nwWxHuoznadkH06HPK22s="
+			SerialNumber="hAJSIYr3iCRJYAlLw9TY0W5Xhcd6lT0q9Hgy5rTIYJxGiBNHXfBJPC7P7rO2xhpv+CKq5GiPnrdtHbsVlCvGcPW+I/PACjvQBrb5QjIWHmxvJA8v+Q3k8gWqQPQj+6cyYmxdKd8IXxXfD64ZGoEZvV+FVkHgwUJeag/3pLM9CcjJcjGePbFOhrTbOdUdFGWoG9Esd7MPZC9IcDLrza2gJhGZSsCZndyU3jxLME74AQGc8KQSL2lTLD4BQIJ3n1Sn/KjSQitDlkh8XvHIZuum81ay5VJinRDUCQyI2qAb7XbsmaB7dRmRs/fTi6uQsPyoqadCCvTSACZvKtHY5bGp1g=="
+		/>
+	</LicenseManager>
+</Document>
